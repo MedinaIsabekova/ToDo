@@ -30,7 +30,7 @@ def add_task():
         txt_input.delete(0, "end")
         
 
-lbl_display = tkinter.Label(root, text="Medina & Nurel ToDo List", bg="brown", fg="coral", font=('Times New Roman', 13, 'bold')) 
+lbl_display = tkinter.Label(root, text="ToDo List", bg="brown", fg="coral", font=('Times New Roman', 13, 'bold')) 
 lbl_display.grid(row=0, column=1) 
 
 txt_input = tkinter.Entry(root, width=35, font=('Courier New', 12, 'bold')) 
